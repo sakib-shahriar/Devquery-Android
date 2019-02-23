@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidrey.repositorypractice.MainActivity">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/community"
+            android:icon="@drawable/ic_community_black_24dp"
+            android:title="Communities" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout_black_24dp"
+            android:title="Log out" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="About" />
+
+
+
+    </group>
+
+</menu>

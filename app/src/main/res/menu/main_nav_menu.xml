@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        />
+    <item
+
+        android:id="@+id/post"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        android:title="Post"
+        />
+    <item
+        android:id="@+id/notification"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notification"
+        />
+    <item
+
+        android:id="@+id/message"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="Message"
+        />
+</menu>

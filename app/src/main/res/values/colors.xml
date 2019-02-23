@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+  <color name="primaryColor">#72bb53</color>
+  <color name="primaryLightColor">#a4ee82</color>
+  <color name="primaryDarkColor">#408a25</color>
+  <color name="secondaryColor">#689f38</color>
+  <color name="secondaryLightColor">#99d066</color>
+  <color name="secondaryDarkColor">#387002</color>
+  <color name="primaryTextColor">#ffffff</color>
+  <color name="secondaryTextColor">#010101</color>
+
+  <color name="black">#000000</color>
+  <color name="jet">#222222</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#777777</color>
+  <color name="jumbo">#888888</color>
+  <color name="aluminum">#999999</color>
+  <color name="base">#AAAAAA</color>
+  <color name="iron">#CCCCCC</color>
+  <color name="white">#FFFFFF</color>
+</resources>

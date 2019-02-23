@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileUpdateActivity"
+    android:background="@color/primaryDarkColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/sofia"
+        android:text="Update User Info"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/etFn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:background="@color/primaryTextColor"/>
+
+        <EditText
+            android:id="@+id/etLn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:background="@color/primaryTextColor"/>
+
+        <EditText
+            android:id="@+id/etUn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:background="@color/primaryTextColor"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@color/primaryTextColor"/>
+
+        <EditText
+            android:id="@+id/etProfileTag"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Profile Tag"
+            android:inputType="textPersonName"
+            android:background="@color/primaryTextColor"/>
+
+        <EditText
+            android:id="@+id/etpass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@color/primaryTextColor"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Update"
+                android:backgroundTint="#FFD36816"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alike_angular"
+                android:text="Sign Up failed!"
+                android:textColor="#FFF000"
+                android:textSize="15sp"
+                android:layout_toRightOf="@id/submit"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
